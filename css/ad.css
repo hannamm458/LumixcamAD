@@ -1,0 +1,63 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+@font-face{
+	font-family: 'Ika';
+	src:url(../fonts/IkaCompact-Normal.otf) format('opentype');
+}
+
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+	background: #FAEBD7;
+	position: relative;
+}
+
+.image{
+	height: 150%;
+	position: absolute;
+	left: 550px;
+	top: -60px;
+}
+
+.title{
+	font-family: 'Ika';
+	font-size: 3em;
+	color: #000000;
+	position: absolute;
+	letter-spacing: 0.3px;
+	left: 10%;
+	bottom: 70%;
+}
+.tagline{
+font-family: 'Ika';
+	font-size: 2.1em;
+	color: #808080;
+	position: absolute;
+	letter-spacing: 0.3px;
+	left: 10%;
+	bottom: 50%;
+}
+.link{
+	font-family: Ika;
+	font-size: 15px;
+	text-align: center;
+	color: #6b6b6b;
+	letter-spacing: 0.1px;
+	margin-top: 60px;
+	border: solid 2px #939393;
+	width: 320px;
+	line-height: 24px;
+	padding: 10px 0 10px 0;
+	text-decoration: none;
+	transition: 0.4s;
+	position: absolute;
+	bottom: 50px;
+	left: 100px;
+}
